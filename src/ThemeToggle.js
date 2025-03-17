@@ -2,16 +2,23 @@ import React, { useState, useEffect } from 'react';
 import { MoonStar, SunDim } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+
 const ThemeToggle = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
   useEffect(() => {
     document.body.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
-  }, [theme]);
+
+    const navElements = document.querySelectorAll('.nav');
+    navElements.forEach(element => {
+      element.style.color = theme === 'light' ? '#021526' : '#FBF8EF'; 
+    });
+
+  }, [theme]); 
 
   const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
+    setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
   return (

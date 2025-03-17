@@ -9,3 +9,21 @@
 }
 
 
+/* Light mode: dark text, Dark mode: light text */
+.nav{
+  color:#FBF8EF ;
+}
+ 
+/* Header Component  css */
+
+.Header{
+  
+  margin-bottom: 100px;
+
+}
+
+.d-block{
+ width: 80%;
+  margin: 0 auto;
+ height: 500px;
+}
