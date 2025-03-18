@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import './Css/Features.css';
 import Header from './Header';
-import Carousel from './Carousel';
+import Gif from './Gif';
+import Features from './Features';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -11,9 +13,21 @@ function App() {
   
       <div className='Header'>
       <Header />
+      
+      </div>
+      
+      <div className='Gif'>
+      <Gif />
       </div>
 
-      <Carousel />
+      <div className='Features'>
+      <Features />
+      </div>
+  
+
+  
+
+
 
 
     </div>
