@@ -12,16 +12,16 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-transparent">
       <Container>
-        <Navbar.Brand href="#home" className='nav'>TRANTIGRAM</Navbar.Brand>
+        <Navbar.Brand href="#" className='nav'>TRANTIGRAM</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as="a" href="Features" className='nav'> 
+            <Nav.Link as="a" href="#" className='nav'> 
             <Link to="Features" smooth={true} duration={100} className="nav">
               Features
             </Link>
             </Nav.Link>
-            <Nav.Link as="a" href="Translator" className='nav'>
+            <Nav.Link as="a" href="#" className='nav'>
             <Link to="Translator" smooth={true} duration={100} className="nav">
             Translate
             </Link></Nav.Link>
