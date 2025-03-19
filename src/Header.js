@@ -21,7 +21,10 @@ function Header() {
               Features
             </Link>
             </Nav.Link>
-            <Nav.Link href="#pricing" className='nav'>Pricing</Nav.Link>
+            <Nav.Link as="a" href="Translator" className='nav'>
+            <Link to="Translator" smooth={true} duration={100} className="nav">
+            Translate
+            </Link></Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link eventKey={2}>

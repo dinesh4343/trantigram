@@ -1,0 +1,109 @@
+.translate h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.825rem;
+    margin: 1.3rem 0;
+
+}
+
+.translate-lead{
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+    font-weight: lighter;
+}
+
+.translate{
+    padding: 30px;
+    text-align: center;
+}
+
+
+.colorful-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: #333 1px solid;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    
+    border-radius: 5px;
+  }
+  
+  textarea.form-input {
+    height: 200px;
+  }
+  
+  
+  
+  select {
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+   
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+  }
+  
+  select option {
+    padding: 10px;
+  }
+  
+  /* Add emoji arrows */
+  select option::before {
+    content: "➡️ ";
+  }
+  
+  select:hover {
+
+    
+    
+  
+  }
+  
+  select:focus {
+    
+    
+  }
+  
+  
+  
+  
+  
+  .translate-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    justify-content: center; /* Center the grid */
+    align-items: center; /* Align items vertically */
+    height: 100vh; /* Full screen height */
+    gap: 20px;
+    
+  }
+  

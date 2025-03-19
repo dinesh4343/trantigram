@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './Css/Features.css';
+import './Css/Translator.css';
 import Header from './Header';
 import Gif from './Gif';
 import Features from './Features';
@@ -24,9 +25,13 @@ function App() {
 
       <div className='Features' id='Features'>
       <Features />
+      
       </div>
-  
-      <Translator/>
+    
+      <div className='Translator' id='Translator'>
+      <Translator />
+      </div>
+ 
 
     </div>
 
