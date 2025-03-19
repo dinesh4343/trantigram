@@ -8,8 +8,14 @@
   letter-spacing: 1px;
 }
 
+
+.light-theme .Features p {
+  color: #021526;
+}
+
+
+
 .Features p {
-color: #000;
   font-size: 0.9rem;
   margin: 1rem 0;
   line-height: 1.5;
@@ -18,6 +24,8 @@ color: #000;
 .Features h6{
     font-weight: lighter;
 }
+
+
 
 .section-feature {
   max-width: 1000px;
@@ -58,6 +66,13 @@ color: #000;
   -webkit-box-align: center;
   align-items: center;
 }
+
+
+.light-theme .service {
+  color: #021526;
+}
+
+
 
 .service {
   background: #fff;

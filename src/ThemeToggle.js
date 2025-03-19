@@ -13,7 +13,22 @@ const ThemeToggle = () => {
     const navElements = document.querySelectorAll('.nav');
     navElements.forEach(element => {
       element.style.color = theme === 'light' ? '#021526' : '#FBF8EF'; 
+
+      const featuresParagraphs = document.querySelectorAll('.Features p');
+      featuresParagraphs.forEach(element => {
+        element.style.color = theme === 'light' ? '#021526' : '#FBF8EF';
+      });
+      
+      const services = document.querySelectorAll('.service');
+      services.forEach(element => {
+        element.style.backgroundColor = theme === 'light' ? '#FBF8EF' : '#021526';
+      });
     });
+
+
+    
+
+    
 
   }, [theme]); 
 
