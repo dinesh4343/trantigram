@@ -2,11 +2,12 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <section className='section-feature'>
+    <section className='section-feature' id='Features'>
   <h3>Our Features</h3>
   <h6 className="section-lead">
     Break language barriers effortlessly with our advanced translation services, designed for seamless communication.
   </h6>
+  
   <div className="services-grid">
     <div className="service service1">
       <i className="ti-globe"></i>

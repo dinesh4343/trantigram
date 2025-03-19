@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 [data-theme="light"] {
   background-color: #FBF8EF;
   color: black;
@@ -20,6 +25,10 @@
   
   margin-bottom: 100px;
 
+}
+
+.nav{
+  text-decoration: none;
 }
 
 .d-block{

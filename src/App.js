@@ -1,17 +1,19 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './Css/Features.css';
 import Header from './Header';
 import Gif from './Gif';
 import Features from './Features';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Translator from './Translator';
+
 
 function App() {
   return (
     <div className="App">
     
   
-      <div className='Header'>
+      <div className='Header' id='Header'>
       <Header />
       
       </div>
@@ -20,18 +22,13 @@ function App() {
       <Gif />
       </div>
 
-      <div className='Features'>
+      <div className='Features' id='Features'>
       <Features />
       </div>
   
-
-  
-
-
-
+      <Translator/>
 
     </div>
-
 
     
   );
