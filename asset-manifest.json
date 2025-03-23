@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/trantigram/static/css/main.642e93f8.css",
-    "main.js": "/trantigram/static/js/main.a399df8f.js",
+    "main.css": "/trantigram/static/css/main.29bfedba.css",
+    "main.js": "/trantigram/static/js/main.bce94aef.js",
     "static/js/453.f17c3f02.chunk.js": "/trantigram/static/js/453.f17c3f02.chunk.js",
     "index.html": "/trantigram/index.html",
-    "main.642e93f8.css.map": "/trantigram/static/css/main.642e93f8.css.map",
-    "main.a399df8f.js.map": "/trantigram/static/js/main.a399df8f.js.map",
+    "main.29bfedba.css.map": "/trantigram/static/css/main.29bfedba.css.map",
+    "main.bce94aef.js.map": "/trantigram/static/js/main.bce94aef.js.map",
     "453.f17c3f02.chunk.js.map": "/trantigram/static/js/453.f17c3f02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.642e93f8.css",
-    "static/js/main.a399df8f.js"
+    "static/css/main.29bfedba.css",
+    "static/js/main.bce94aef.js"
   ]
 }
