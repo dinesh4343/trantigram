@@ -9,11 +9,16 @@ import Gif from './Gif';
 import Features from './Features';
 import Translator from './Translator';
 import Footer from './Footer';
+import Top from './Top';
 
 
 function App() {
   return (
     <div className="App">
+    
+    <div className='Top'>
+    <Top />
+    </div>
     
   
       <div className='Header' id='Header'>
