@@ -161,3 +161,101 @@
     flex-direction: column;
   }
 }
+
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+  .section-feature {
+    padding: 20px;
+    margin-bottom: 150px;
+  }
+
+  .section-lead {
+    max-width: 90%;
+    margin-bottom: 180px;
+  }
+
+  .Features h3 {
+    font-size: 1.6rem; /* Reduce heading size */
+  }
+
+  .Features p {
+    font-size: 0.85rem; /* Adjust text size */
+  }
+
+  .service {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .section-feature {
+  
+    padding: 15px;
+    margin-bottom: 100px;
+  }
+
+  .section-lead {
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .Features h3 {
+    font-size: 1.4rem;
+  }
+
+  .Features p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .service {
+    border-radius: 20px;
+    padding: 12px;
+  }
+
+  .service h4 {
+    font-size: 1.1rem;
+  }
+
+  .service i {
+    font-size: 2.5rem;
+  }
+}
+
+/* For very small screens (phones) */
+@media (max-width: 480px) {
+  .Features h3 {
+    font-size: 1.2rem;
+  }
+
+  .Features p {
+    font-size: 0.75rem;
+    margin: 0.8rem 0;
+  }
+
+  .service {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .service h4 {
+    font-size: 1rem;
+  }
+
+  .service i {
+    font-size: 2rem;
+  }
+
+  .service .cta span {
+    font-size: 0.5rem;
+  }
+
+  .services-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

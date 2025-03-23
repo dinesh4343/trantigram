@@ -107,3 +107,72 @@
     
   }
   
+
+
+  /* For tablets and smaller screens */
+@media (max-width: 1024px) {
+  .translate-container {
+    grid-template-columns: 1fr; /* Stack elements in one column */
+    height: auto;
+    padding: 20px;
+  }
+  
+  .colorful-form {
+    max-width: 90%; /* Adjust width for smaller screens */
+  }
+  
+  .translate h3 {
+    font-size: 1.5rem; /* Reduce heading size */
+  }
+
+  .translate-lead {
+    max-width: 90%;
+    font-size: 1rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .translate {
+    padding: 20px;
+  }
+
+  .colorful-form {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .form-input, select {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .translate-container {
+    height: auto;
+    padding: 10px;
+  }
+
+  textarea.form-input {
+    height: 150px;
+  }
+}
+
+/* For very small screens (phones) */
+@media (max-width: 480px) {
+  .translate h3 {
+    font-size: 1.3rem;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .form-input, select {
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .translate-container {
+    gap: 10px;
+  }
+}

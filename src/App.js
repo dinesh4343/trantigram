@@ -1,15 +1,17 @@
 import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './Css/Features.css';
 import './Css/Translator.css';
 import './Css/Footer.css';
-import Header from './Header';
-import Gif from './Gif';
-import Features from './Features';
-import Translator from './Translator';
-import Footer from './Footer';
-import Top from './Top';
+
+import Header from './JS/Header';
+import Gif from './JS/Gif';
+import Features from './JS/Features';
+import Translator from './JS/Translator';
+import Footer from './JS/Footer';
+import Top from './JS/Top';
 
 
 function App() {
