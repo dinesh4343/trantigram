@@ -33,9 +33,4 @@ Through this project, I gained experience in:
 - ✔️ **Dark Mode Implementation** – Enhancing user experience.  
 - ✔️ **Git & GitHub** – Managing repositories and version control.  
 
-## 🚀 Getting Started  
 
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/your-username/trantigram.git
-cd trantigram
