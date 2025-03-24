@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# 🌍 TRANTIGRAM – Language Translation App  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TRANTIGRAM** is a real-time language translation tool built using **React**. It allows users to translate text between **100+ languages** instantly with a clean and responsive UI.  
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 Features  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ **Instant Text Translation** – Translate text between multiple languages in real-time.  
+- ✅ **Dark Mode Toggle** – Switch between light and dark themes for better accessibility. 🌙🔆  
+- ✅ **Fully Responsive Design** – Optimized for **mobile, tablet, and desktop** using **CSS**.  
+- ✅ **React Bootstrap** – Styled with Bootstrap for a sleek and professional look.  
+- ✅ **Material Design Icons (React MDI)** – Intuitive and modern iconography.  
+- ✅ **Git Hosting & Version Control** – Managed and deployed via **GitHub**.  
+- ✅ **Reusable React Components** – Clean and modular code for easy scalability.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used  
 
-### `npm test`
+- **React** – Component-based UI framework  
+- **CSS** – Custom styling for responsiveness  
+- **React Bootstrap** – Pre-styled components for UI enhancement  
+- **Material Design Icons (React MDI)** – Beautiful and consistent icons  
+- **Google Translate API** – Language translation functionality  
+- **Git & GitHub** – Version control and project hosting  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 What I Learned  
 
-### `npm run build`
+Through this project, I gained experience in:  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✔️ **React fundamentals** – Hooks, state management, and props.  
+- ✔️ **Building reusable components** – Improving maintainability.  
+- ✔️ **Responsive Web Design (CSS)** – Making the UI adaptable to different screen sizes.  
+- ✔️ **Dark Mode Implementation** – Enhancing user experience.  
+- ✔️ **Git & GitHub** – Managing repositories and version control.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/trantigram.git
+cd trantigram
